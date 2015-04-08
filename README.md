@@ -1,3 +1,13 @@
+Project Paper Person
+by- Andy de Caussin, Jacquline Yee and Brent Haub
+Level Design I, Spring 2015
+
+
+
+
+
+
+
 # Project-2
 Project 2 for CPSC-244 Level Design I
 
