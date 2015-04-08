@@ -1,3 +1,9 @@
+"The Great Doodle Journey"
+by Just Always Beta
+Jacqueline - Andy - Brent
+
+
+
 # Project-2
 Project 2 for CPSC-244 Level Design I
 
