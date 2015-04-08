@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 OK!
 everybody just calm down
+=======
+>>>>>>> parent of 00b237b... OK!
