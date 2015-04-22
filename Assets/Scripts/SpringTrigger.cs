@@ -23,6 +23,7 @@ public class SpringTrigger : MonoBehaviour {
 		if (cubeTrigger.tag == "Tongs")
 		{
 			anim.enabled = !anim.enabled;
+		}
 	}
 	
 }
