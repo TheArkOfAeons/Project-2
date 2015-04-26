@@ -4,15 +4,14 @@ using System.Collections;
 public class SpringTrigger : MonoBehaviour {
 
   public float JumpMagnitude = 20;
-	Animator anim;
+    Animator animator;
+	Animation animation;
 	GameObject top;
 
 	
-  //public GameObject tong; 
-  //// Use this for initialization
-  //void Start () {
-  //  anim = GetComponent<Animator>();
-  //}
+  void Start () {
+      animation = GetComponent<Animation>();
+  }
 
   public void ControllerEnter2D(CharacterController2D controller)
   {
@@ -24,12 +23,13 @@ public class SpringTrigger : MonoBehaviour {
 
   //}
 
-  //void OnTriggerEnter(Collider cubeTrigger)
-  //{
-  //  if (cubeTrigger.tag == "Tongs")
-  //  {
-  //    anim.enabled = !anim.enabled;
-  //  }
-  //}
+  void OnTriggerEnter(Collider cubeTrigger)
+  {
+    if (cubeTrigger.tag == "Player")
+    {
+        animation.Play("hinge");
+        
+    }
+  }
 	
 }
