@@ -5,8 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - BoxCollider2D
-  - Tongs
+  - Spring
   - Player
+  - Slow
   layers:
   - Default
   - TransparentFX

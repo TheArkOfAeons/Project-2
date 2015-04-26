@@ -61,10 +61,11 @@ public class Player : MonoBehaviour
 
 	void OnTriggerEnter2D (Collider2D trigger)
 	{
-		if (trigger.gameObject.name.Equals ("Triggerthing")) 
+		if (trigger.gameObject.tag.Equals ("Slow")) 
 		{
 			//Debug.Log ("Entered Log Trigger! " + trigger.gameObject.name);
-			MaxSpeed = 20;
+			MaxSpeed = 2;
+
 		}
 		if (trigger.gameObject.name.Equals ("Spider")) 
 		{
@@ -89,7 +90,7 @@ public class Player : MonoBehaviour
 
 	void OnTriggerExit2D (Collider2D trigger)
 	{
-		if (trigger.gameObject.name.Equals ("Triggerthing")) 
+		if (trigger.gameObject.tag.Equals ("Slow")) 
 		{
 			//Debug.Log ("Entered Log Trigger! " + trigger.gameObject.name);
 			MaxSpeed = 15;

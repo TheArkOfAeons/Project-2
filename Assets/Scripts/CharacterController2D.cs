@@ -142,9 +142,9 @@ public class CharacterController2D : MonoBehaviour
 		{
 			if(FallVelocity.y > deltaMovement.y)
 			{
-				Debug.Log ("Velocity: " + FallVelocity);
+				//Debug.Log ("Velocity: " + FallVelocity);
 				FallVelocity = deltaMovement;
-				Debug.Log ("Velocity2: " + FallVelocity);
+				//Debug.Log ("Velocity2: " + FallVelocity);
 			}
 
 		}
