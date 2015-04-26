@@ -8,6 +8,7 @@ TagManager:
   - Spring
   - Player
   - Slow
+  - Sketchbook
   layers:
   - Default
   - TransparentFX

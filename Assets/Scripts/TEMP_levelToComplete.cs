@@ -17,9 +17,4 @@ public class TEMP_levelToComplete : MonoBehaviour {
 		Application.LoadLevel (2);
 		Debug.Log ("UGH");
 	}
-
-	//void OnCollisionEnter2d(Collision2D other){
-		//Application.LoadLevel (2);
-		//Debug.Log ("I HATE THIS");
-	//}
 }
