@@ -7,7 +7,7 @@ public class JumpTrigger : MonoBehaviour {
 
 	public IEnumerator ControllerEnter2D(CharacterController2D controller)
 	{
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (0.2f);
 		controller.SetVerticalForce(JumpMagnitude);
 	}
 

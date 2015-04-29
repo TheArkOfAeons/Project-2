@@ -391,7 +391,7 @@ public class CharacterController2D : MonoBehaviour
 
 	public void OnTriggerEnter2D(Collider2D other)
 	{
-		var parameters = other.gameObject.GetComponent<ControllerPhsyicsVolume2D>();
+		var parameters = other.gameObject.GetComponent<ControllerPhysicsVolume2D>();
 		if (parameters == null)
 			return;
 
@@ -400,7 +400,7 @@ public class CharacterController2D : MonoBehaviour
 
 	public void OnTriggerExit2D(Collider2D other)
 	{
-		var parameters = other.gameObject.GetComponent<ControllerPhsyicsVolume2D>();
+		var parameters = other.gameObject.GetComponent<ControllerPhysicsVolume2D>();
 		if (parameters == null)
 			return;
 
