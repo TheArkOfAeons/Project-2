@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
 			MaxSpeed = 2;
 
 		}
-		if (trigger.gameObject.name.Equals ("Sketchbook")) 
+		if (trigger.gameObject.tag.Equals ("Sketchbook")) 
 		{
 			Application.LoadLevel(2);
 		}
