@@ -44,7 +44,7 @@ LevelGameManager:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_LightmapsMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -68,7 +68,8 @@ LightmapSettings:
     m_TextureCompression: 1
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
-  m_LightmapSnapshot: {fileID: 0}
+  m_LightmapSnapshot: {fileID: 112000000, guid: 9b5725d4e0523364f9b95888600f580a,
+    type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &5
 NavMeshSettings:
@@ -112,7 +113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 391345775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59288fe83bab4d54ba84b20498a98b38, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b1a5e5c1288c9a48babed43e4bc7e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &391345777
@@ -279,7 +280,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1801601145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8627b4e395989d34e9a7fc364b23cda1, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a61c408585bf0846856e08be487e7fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1801601147

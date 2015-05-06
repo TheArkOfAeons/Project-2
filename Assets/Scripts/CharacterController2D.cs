@@ -134,6 +134,7 @@ public class CharacterController2D : MonoBehaviour
 		}
 
 		// Fall Death Script
+		/*
 		if (State.IsCollidingBelow == true) 
 		{
 			// do nothing
@@ -156,7 +157,7 @@ public class CharacterController2D : MonoBehaviour
 		else if (State.IsCollidingBelow == true)
 		{
 			FallVelocity = deltaMovement;
-		}
+		}*/
 
 
 
